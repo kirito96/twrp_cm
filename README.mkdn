@@ -1,4 +1,4 @@
-CyanogenMod
+CyanogenMod for MediaTek
 ===========
 
 Getting Started
@@ -20,9 +20,10 @@ Please see the [CyanogenMod Wiki](http://wiki.cyanogenmod.org/) for building ins
 For more information on this Github Organization and how it is structured, 
 please [read the wiki article](http://wiki.cyanogenmod.org/w/Github_Organization)
 
-Buildbot
+Credits
 --------
+- fire855
+- Cyanogenmod
+- xen0n
+- all developers working for CM for Mediatek
 
-All supported devices are built nightly and periodically as changes are committed to ensure the source trees remain buildable.
-
-You can view the current build statuses at [CyanogenMod Jenkins](http://jenkins.cyanogenmod.org/)
