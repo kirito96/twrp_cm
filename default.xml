@@ -585,6 +585,6 @@
   <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" />
   <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" />
 
-  <project path="device/kingzone/k1_turbo" name="fire855/android_device_kingzone_k1-turbo" revision="cm-12.1" />
-  <project path="vendor/kingzone/k1_turbo" name="fire855/android_vendor_kingzone_k1-turbo" revision="cm-12.1" />
+  <project path="device/mediatek/mt6582" name="rohantaneja/android_device_mediatek_mt6582" revision="cm-12.1" />
+  <project path="vendor/mediatek/mt6582" name="rohantaneja/android_vendor_mediatek_mt6582" revision="cm-12.1" />
 </manifest>
