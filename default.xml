@@ -40,10 +40,16 @@
   <project path="external/genext2fs" name="platform/external/genext2fs" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/icu" name="CyanogenMod/android_external_icu" groups="pdk" />
   <project path="external/jpeg" name="CyanogenMod/android_external_jpeg" groups="pdk" />
+  <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" remote="aosp" />
+  <project path="external/jemalloc" name="platform/external/jemalloc" groups="pdk" remote="aosp" />
+  <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" remote="aosp" />
   <project path="external/libpng" name="CyanogenMod/android_external_libpng" groups="pdk" />
+  <project path="external/libselinux" name="CyanogenMod/android_external_libselinux" groups="pdk" />
   <project path="external/libsepol" name="CyanogenMod/android_external_libsepol" groups="pdk" />
   <project path="external/llvm" name="platform/external/llvm" groups="pdk" remote="aosp" />
+  <project path="external/lz4" name="CyanogenMod/android_external_lz4" />
   <project path="external/openssl" name="Cyanogenmod/android_external_openssl" />
+  <project path="external/pcre" name="CyanogenMod/android_external_pcre" groups="pdk-cw-fs" />
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" remote="aosp" />
   <project path="external/sepolicy" name="CyanogenMod/android_external_sepolicy" groups="pdk" />
   <project path="external/stlport" name="platform/external/stlport" groups="pdk" remote="aosp" />
