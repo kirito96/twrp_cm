@@ -1,4 +1,4 @@
-Minimal Project list for Building TWRP with CM 12.1
+Minimized Project list for Building TWRP with CM 12.1
 ===========
 
 Getting Started
