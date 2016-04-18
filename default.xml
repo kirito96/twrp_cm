@@ -270,9 +270,9 @@
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" remote="aosp" />
   <project path="external/pciutils" name="CyanogenMod/android_external_pciutils" /> -->
   <project path="external/pcre" name="CyanogenMod/android_external_pcre" groups="pdk-cw-fs" />
-<!--  <project path="external/pdfium" name="platform/external/pdfium" groups="pdk-cw-fs" remote="aosp" />
+<!--  <project path="external/pdfium" name="platform/external/pdfium" groups="pdk-cw-fs" remote="aosp" /> -->
   <project path="external/pigz" name="CyanogenMod/android_external_pigz" />
-  <project path="external/pixman" name="platform/external/pixman" remote="aosp" />
+<!--  <project path="external/pixman" name="platform/external/pixman" remote="aosp" />
   <project path="external/powertop" name="CyanogenMod/android_external_powertop" />
   <project path="external/ppp" name="platform/external/ppp" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/proguard" name="platform/external/proguard" groups="pdk-java,tradefed" remote="aosp" />
