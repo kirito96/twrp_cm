@@ -8,8 +8,6 @@ Initialize your local repository using the CyanogenMod/TWRP trees, use this comm
 
     repo init -u git://github.com/neporood/twrp_cm.git -b cm-12.1
 
-Move the local_manifests folder (location: your-build-directory/.repo/manifests) to the .repo folder, to include TWRP
-
 Then to sync up:
 
     repo sync
