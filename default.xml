@@ -10,6 +10,9 @@
            fetch="https://github.com/TeamWin" 
            review="gerrit.twrp.me"/>
            
+  <remote  name="omnirom"
+           fetch="https://github.com/omnirom" />
+           
   <remote  name="github"
            fetch=".."
            review="review.cyanogenmod.org" />
