@@ -35,7 +35,7 @@
 <!--  <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" /> -->
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" revision="android-6.0" groups="pdk-cw-fs"/>
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="omnirom" revision="android-7.1" groups="pdk-cw-fs"/>
 <!--  <project path="cts" name="CyanogenMod/android_cts" groups="cts,pdk-cw-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" remote="aosp" />
   <project path="developers/build" name="platform/developers/build" remote="aosp" />
