@@ -39,49 +39,46 @@
   <project path="device/generic/common" name="CyanogenMod/android_device_generic_common" groups="pdk" />
   <project path="device/generic/goldfish" name="CyanogenMod/android_device_generic_goldfish" groups="pdk" />
   <project path="device/generic/mips" name="CyanogenMod/android_device_generic_mips" groups="pdk" />
-  <project path="device/generic/mini-emulator-arm64" name="device/generic/mini-emulator-arm64" groups="pdk" remote="aosp" />
-  <project path="device/generic/mini-emulator-armv7-a-neon" name="device/generic/mini-emulator-armv7-a-neon" groups="pdk" remote="aosp" />
-  <project path="device/generic/mini-emulator-mips" name="device/generic/mini-emulator-mips" groups="pdk" remote="aosp" />
-  <project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk" remote="aosp" />
-  <project path="device/generic/mini-emulator-x86_64" name="device/generic/mini-emulator-x86_64" groups="pdk" remote="aosp" />
-  <project path="device/generic/qemu" name="device/generic/qemu" remote="aosp" />
-  <project path="device/generic/x86" name="device/generic/x86" groups="pdk" remote="aosp" />
-  <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" remote="aosp" />
-  <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" remote="aosp" />
-  <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" remote="aosp" />
-  <project path="device/google/atv" name="CyanogenMod/android_device_google_atv" groups="device" />
+  <project path="device/generic/mini-emulator-arm64" name="device/generic/mini-emulator-arm64" groups="pdk"  />
+  <project path="device/generic/mini-emulator-armv7-a-neon" name="device/generic/mini-emulator-armv7-a-neon" groups="pdk"  />
+  <project path="device/generic/mini-emulator-mips" name="device/generic/mini-emulator-mips" groups="pdk"  />
+  <project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk"  />
+  <project path="device/generic/mini-emulator-x86_64" name="device/generic/mini-emulator-x86_64" groups="pdk"  />
+  <project path="device/generic/qemu" name="device/generic/qemu"  />
+  <project path="device/generic/x86" name="device/generic/x86" groups="pdk"  />
+  <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" />
   <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" />
-  <project path="device/sample" name="device/sample" groups="pdk" remote="aosp" />
-  <project path="external/bison" name="platform/external/bison" groups="pdk" remote="aosp" />
+  <project path="device/sample" name="device/sample" groups="pdk" />
+  <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/bouncycastle" name="CyanogenMod/android_external_bouncycastle" />
   <project path="external/boringssl" name="CyanogenMod/android_external_boringssl" groups="pdk" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" />
-  <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" remote="aosp" />
-  <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" remote="aosp" />
-  <project path="external/clang" name="platform/external/clang" groups="pdk" remote="aosp" />
-  <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" remote="aosp" />
+  <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
+  <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk"  />
+  <project path="external/clang" name="platform/external/clang" groups="pdk" />
+  <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
   <project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" groups="pdk" />
-  <project path="external/elfutils" name="platform/external/elfutils" groups="pdk" remote="aosp" />
+  <project path="external/elfutils" name="platform/external/elfutils" groups="pdk" />
   <project path="external/exfat" name="CyanogenMod/android_external_exfat" />
   <project path="external/f2fs-tools" name="CyanogenMod/android_external_f2fs-tools" groups="pdk" />
-  <project path="external/freetype" name="platform/external/freetype" groups="pdk" remote="aosp" revision="refs/tags/android-m-preview-1" />
+  <project path="external/freetype" name="platform/external/freetype" groups="pdk" />
   <project path="external/fsck_msdos" name="CyanogenMod/android_external_fsck_msdos" groups="pdk-cw-fs" />
   <project path="external/fuse" name="CyanogenMod/android_external_fuse" /> 
   <project path="external/gptfdisk" name="CyanogenMod/android_external_gptfdisk" groups="pdk-fs" />
   <project path="external/icu" name="CyanogenMod/android_external_icu" groups="pdk" />
-  <project path="external/jemalloc" name="platform/external/jemalloc" groups="pdk" remote="aosp" />
+  <project path="external/jemalloc" name="platform/external/jemalloc" groups="pdk"  />
   <project path="external/jpeg" name="CyanogenMod/android_external_jpeg" groups="pdk" />
-  <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" remote="aosp" />
-  <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" remote="aosp" />
-  <project path="external/libdrm" name="platform/external/libdrm" groups="pdk" remote="aosp" />
-  <project path="external/libnl" name="platform/external/libnl" groups="pdk" remote="aosp" />
+  <project path="external/libcxx" name="platform/external/libcxx" groups="pdk"  />
+  <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk"  />
+  <project path="external/libdrm" name="platform/external/libdrm" groups="pdk"  />
+  <project path="external/libnl" name="platform/external/libnl" groups="pdk"  />
   <project path="external/libpng" name="CyanogenMod/android_external_libpng" groups="pdk" />
-  <project path="external/libseccomp-helper" name="platform/external/libseccomp-helper" groups="pdk-cw-fs" remote="aosp" />
+  <project path="external/libseccomp-helper" name="platform/external/libseccomp-helper" groups="pdk-cw-fs"/>
   <project path="external/libselinux" name="CyanogenMod/android_external_libselinux" groups="pdk" />
   <project path="external/libsepol" name="CyanogenMod/android_external_libsepol" groups="pdk" />
   <project path="external/libtar" name="CyanogenMod/android_external_libtar" /> -->
-  <project path="external/libunwind" name="platform/external/libunwind" groups="pdk" remote="aosp" />
-  <project path="external/llvm" name="platform/external/llvm" groups="pdk" remote="aosp" />
+  <project path="external/libunwind" name="platform/external/libunwind" groups="pdk"  />
+  <project path="external/llvm" name="platform/external/llvm" groups="pdk" />
   <project path="external/lz4" name="CyanogenMod/android_external_lz4" />
   <project path="external/lzma" name="CyanogenMod/android_external_lzma" />
   <project path="external/mksh" name="CyanogenMod/android_external_mksh" groups="pdk" />
@@ -104,14 +101,14 @@
   <project path="external/replicaisland" name="platform/external/replicaisland" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/robolectric" name="platform/external/robolectric" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/rsync" name="CyanogenMod/android_external_rsync" /> -->
-  <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" remote="aosp" />
-  <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" remote="aosp" />	
+  <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk"  />
+  <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" />	
   <project path="external/sepolicy" name="CyanogenMod/android_external_sepolicy" groups="pdk" />
   <project path="external/sqlite" name="CyanogenMod/android_external_sqlite" groups="pdk" />
-  <project path="external/squashfs-tools" name="platform/external/squashfs-tools" groups="pdk" remote="aosp" />
-  <project path="external/stlport" name="platform/external/stlport" groups="pdk" remote="aosp" />
+  <project path="external/squashfs-tools" name="platform/external/squashfs-tools" groups="pdk" />
+  <project path="external/stlport" name="platform/external/stlport" groups="pdk"  />
   <project path="external/toybox" name="CyanogenMod/android_external_toybox" groups="pdk" />
-  <project path="external/yaffs2" name="platform/external/yaffs2" groups="pdk" remote="aosp" />
+  <project path="external/yaffs2" name="platform/external/yaffs2" groups="pdk"/>
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" />
   <project path="frameworks/native" name="CyanogenMod/android_frameworks_native" groups="pdk" />
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" groups="pdk" />
@@ -123,19 +120,19 @@
   
   <!-- ALL Apps, "Darwin" and "mips" related projects removed! -->
   
-  <project path="prebuilts/clang/linux-x86/host/3.6" name="platform/prebuilts/clang/linux-x86/host/3.6" groups="pdk,linux" clone-depth="1" remote="aosp" />
+  <project path="prebuilts/clang/linux-x86/host/3.6" name="platform/prebuilts/clang/linux-x86/host/3.6" groups="pdk,linux" clone-depth="1" />
 
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" groups="pdk,linux,arm" clone-depth="1" remote="aosp" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" groups="pdk,linux,arm" clone-depth="1"  />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="CyanogenMod/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,linux,arm" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" clone-depth="1" remote="aosp" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" groups="pdk,linux,arm" clone-depth="1" remote="aosp" />
-  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8"  groups="pdk,linux" clone-depth="1" remote="aosp" />
-  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.8" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.8" groups="pdk,linux,x86" clone-depth="1" remote="aosp" />
-  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" groups="pdk,linux,x86" clone-depth="1" remote="aosp" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" clone-depth="1"  />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" groups="pdk,linux,arm" clone-depth="1"  />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8"  groups="pdk,linux" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.8" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.8" groups="pdk,linux,x86" clone-depth="1"  />
+  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" groups="pdk,linux,x86" clone-depth="1"  />
 
-  <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk,tradefed" clone-depth="1" remote="aosp" />
-  <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" clone-depth="1" remote="aosp" />
-  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" clone-depth="1" remote="aosp" />
+  <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk,tradefed" clone-depth="1"  />
+  <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" clone-depth="1"  />
+  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" clone-depth="1" />
 
   <project path="system/core" name="CyanogenMod/android_system_core" groups="pdk" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" groups="pdk" />
