@@ -3,14 +3,14 @@
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
-           review="android-review.googlesource.com"
-           revision="refs/tags/android-6.0.1_r74" />
+           review="android-review.googlesource.com" />
 
   <remote  name="TeamWin"
            fetch="https://github.com/TeamWin" 
            review="gerrit.twrp.me"/>
            
   <remote  name="omnirom"
+           review="gerrit.omnirom.org"
            fetch="https://github.com/omnirom" />
            
   <remote  name="github"
@@ -21,7 +21,7 @@
            fetch="ssh://git@github.com" />
 
   <default revision="refs/heads/cm-13.0"
-           remote="github"
+           remote="aosp"
            sync-c="true"
            sync-j="4" />
 
