@@ -22,7 +22,7 @@
            fetch="ssh://git@github.com" />
 
   <default revision="refs/heads/cm-13.0"
-           remote="aosp"
+           remote="github"
            sync-c="true"
            sync-j="4" />
 
