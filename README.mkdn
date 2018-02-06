@@ -6,12 +6,8 @@ Getting Started
 
 Initialize your local repository using the CyanogenMod/TWRP trees, use this command in your build directory:
 
-    repo init -u git://github.com/neporood/twrp_cm.git -b cm-12.1
+    repo init -u git://github.com/kirito96/twrp_cm.git -b cm-13.0
 
 Then to sync up:
 
     repo sync
-
-Then to build:
-
-     cd your-build-directory; . build/envsetup.sh; lunch cm_<device>-eng; mka recoveryimage    
