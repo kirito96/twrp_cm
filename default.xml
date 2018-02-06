@@ -105,7 +105,7 @@
   <project path="external/robolectric" name="platform/external/robolectric" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/rsync" name="CyanogenMod/android_external_rsync" /> -->
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" remote="aosp" />
-  <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" remote="aosp" 	
+  <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" remote="aosp" />	
   <project path="external/sepolicy" name="CyanogenMod/android_external_sepolicy" groups="pdk" />
   <project path="external/sqlite" name="CyanogenMod/android_external_sqlite" groups="pdk" />
   <project path="external/squashfs-tools" name="platform/external/squashfs-tools" groups="pdk" remote="aosp" />
