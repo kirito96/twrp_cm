@@ -6,6 +6,14 @@
            review="android-review.googlesource.com"
            revision="refs/tags/android-6.0.1_r74" />
            
+  <remote  name="omnirom"
+           review="gerrit.omnirom.org"
+           fetch="https://github.com/omnirom" />
+
+  <remote  name="TeamWin"
+           review="gerrit.twrp.me"
+           fetch="https://github.com/TeamWin" />           
+           
   <remote  name="github"
            fetch=".."
            review="review.cyanogenmod.org" />
